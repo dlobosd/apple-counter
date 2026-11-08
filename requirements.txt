@@ -1,0 +1,10 @@
+# Python 3.11. Para GPU NVIDIA instalar torch/torchvision desde https://download.pytorch.org/whl/cu126 (ver README).
+torch==2.15.0
+torchvision==0.29.2
+numpy==2.4.6
+scipy==1.17.1
+pillow==12.3.0
+matplotlib==3.11.2
+pandas==3.1.1
+pycocotools==2.0.11
+gradio==6.31.0

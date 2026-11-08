@@ -1,0 +1,47 @@
+{
+ "tag": "pretrain_det",
+ "args": {
+  "frac": 1.0,
+  "seed": 0,
+  "iters": 800,
+  "bs": 8,
+  "lr": 0.0005,
+  "crop": 256,
+  "base": 16,
+  "eval_every": 200,
+  "init": null,
+  "pseudo": "../results/pseudo/frcnn_mobilenet.npz",
+  "count_w": 0.01,
+  "tag": "pretrain_det",
+  "threads": 6,
+  "device": "cuda"
+ },
+ "n_labelled": 0,
+ "curve": [
+  {
+   "iter": 200,
+   "loss": 11.139771461486816,
+   "val_MAE": NaN,
+   "t": 36.35138535499573
+  },
+  {
+   "iter": 400,
+   "loss": 6.397298812866211,
+   "val_MAE": NaN,
+   "t": 66.60629963874817
+  },
+  {
+   "iter": 600,
+   "loss": 5.3528947830200195,
+   "val_MAE": NaN,
+   "t": 96.72764253616333
+  },
+  {
+   "iter": 800,
+   "loss": 5.16023588180542,
+   "val_MAE": NaN,
+   "t": 126.79123067855835
+  }
+ ],
+ "train_seconds": 127.09707832336426
+}
